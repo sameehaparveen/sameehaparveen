@@ -1,0 +1,128 @@
+body {
+  background-color: #334155;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.mouse {
+  font-size: 24px;
+}
+
+.counter {
+  color: #fbbf24;
+}
+
+h2 {
+  color: #f9a8d4;
+}
+
+#border{
+	background-color: black;	
+	height:10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* title */
+#title-header{
+	background-color: #ECBDED;  
+  color: black;
+  margin: 0;
+  padding: 0;  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;   
+}
+
+/* NM2207 Project */
+#nm2207-project{
+  background-color: #334155;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+
+#links{
+  font-size: 16px;
+}
+
+#links a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#links a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#links a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#links a:active {
+  color: green;
+  text-decoration: none;
+}
+
+table{
+  font-size:14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-collapse: collapse;
+  background-color:#E2F3FE;
+  color:black;
+}
+
+td {
+  border:3px solid black;
+  text-align: left;
+  padding: 4px;
+  
+}
+#week11title{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#week12title{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* CSS */
+button {
+  appearance: none;
+  background-color: #b45309;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #92400e;
+}
+
+#project{
+  font-size: 20px;
+  font-weight: 600;
+}
